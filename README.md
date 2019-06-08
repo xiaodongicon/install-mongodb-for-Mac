@@ -2,7 +2,7 @@
 
 #### 一、brew 安装
 
-1.brew 官网 [https://brew.sh/](https://brew.sh/)
+1. brew 官网 [https://brew.sh/](https://brew.sh/)
 
 #### 二、brew 基本使用
 
