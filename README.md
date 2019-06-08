@@ -110,5 +110,6 @@
 ![关闭数据库](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-190938%402x.png)
 
 
+---
 ps: 以上内容是整合 google 出来的内容，有哪里不对请您提个issue :smile:
 
