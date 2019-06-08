@@ -46,5 +46,30 @@
 
 ![brew 安装 mongodb](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-124720%402x.png)
 
+2. 查看 mongodb 安装目录
+
+>`which mongod` 或者 `where mongod`
+
+![mongodb安装目录](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-174930%402x.png)
+
+3. 手动添加数据库数据目录
+
+>进入系统根目录，运行 `sudo mkdir -p /data/db` 
+
+![数据库数据目录](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-175358%402x.png)
+
+4. 输入命令 `mongod` 启动 Mongodb 数据库
+
+> 这时会有错误提示，是刚创建的数据目录没有读写权限导致
+
+![未授权的数据目录](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-175935%402x.png)
+
+5. 添加可读写权限 `sudo chown `id -u` /data/db` 并运行 `mongod`
+
+> 提示 `waiting for connections on port 27017` 表示数据库启动成功
+
+![启动成功](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-180518%402x.png)
+
+6.
 
 
