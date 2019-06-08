@@ -3,6 +3,7 @@
 
 
 ### brew 安装
+---
 
 brew 官网 [https://brew.sh/](https://brew.sh/)
 
