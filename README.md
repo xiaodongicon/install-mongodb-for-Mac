@@ -6,7 +6,7 @@
   	
 ![brew安装命令](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WechatIMG283.png)
 
->```
+```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 	
@@ -45,7 +45,6 @@
 >`brew install mongodb`
 
 ![brew 安装 mongodb](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-124720%402x.png)
-
 
 
 
