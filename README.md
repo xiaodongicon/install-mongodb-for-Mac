@@ -75,5 +75,40 @@
 
 ![Robo3t 创建链接](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-183432%402x.png)
 
+7. 新开个 shell 窗口, 输入 `mongo` 进入数据库服务
+
+![进入数据库服务](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-184604%402x.png)
+
+8. 查看数据库 `show dbs`
+默认有这几个数据库
+
+![数据库列表](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-184854%402x.png)
+
+9. 使用/新建 数据库 ` use db_fanxd ` 数据库存在就是使用，不存在就是创建
+
+![使用/新建数据](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-190127%402x.png)
+
+10. 查看当前所在数据库 `db`
+
+![查看当前数据库](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-190304%402x.png)
+
+11. 添加表数据 `db.db_fanxd.insert({'name':'小东','age':'27'})`
+
+![添加表数据](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-190455%402x.png)
+
+12. 查看表数据 `db.db_fanxd.find()`
+
+![查看表数据](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-190740%402x.png)
+
+13. 查看 Robo3t 刚才创建的数据库
+
+![查看 Robo3t 数据库](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-191348%402x.png)
+
+
+14. 关闭数据库时 需要进入 `admin` 数据库才能关闭
+
+![关闭数据库](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-190938%402x.png)
+
+
 
 
