@@ -3,7 +3,7 @@
 #### 一、brew 安装
 
 1. brew 官网 [https://brew.sh/](https://brew.sh/)
-2. 
+2. 在命令行输入
   ```
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   
