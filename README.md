@@ -20,10 +20,26 @@
 
 1. 更新 brew
 
->`brew upgrade`
+>`brew upgrade` 更新 brew 及 使用 brew 安装的所有软件
 
-2. 查看 brew 安装的软件列表
+2. brew 安装软件
+
+>`brew install [soft_name]` 比如：安装 node `brew install node`
+
+3. 查看brew 安装的文件路径
+
+>`brew --cache`
+
+4. 查看 brew 安装的软件列表
 
 >`brew list`
 
-  
+5. brew 卸载软件
+
+>`brew uninstall [soft_name]` 比如：卸载 git `brew unstall git`
+
+
+
+
+
+
