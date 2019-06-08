@@ -7,6 +7,7 @@
   ```
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   ```
+3. 安装完成后输入 `brew -v` 显示版本号证明安装成功
 
 #### 二、brew 基本使用
 
