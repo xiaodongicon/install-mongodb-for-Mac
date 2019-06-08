@@ -1,2 +1,1 @@
-# install-mongodb-for-Mac
-Mac 系统中 Mongodb 安装步骤详解
+#MAC系统 安装 Mongodb 步骤详解
