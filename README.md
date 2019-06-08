@@ -66,14 +66,14 @@
 
 5. 添加可读写权限 ``sudo chown \`id -u` /data/db`` 并运行 `mongod`
 
-> 提示 ``waiting for connections on port 27017`` 表示数据库启动成功
-
-```javascript
-注: ‘id -u‘表明 你当前登录的账户名 例如:sudo chown `admin` /data/db
-```
+> 提示 ``waiting for connections on port 27017`` 表示数据库启动成功，等待被链接
 
 ![启动成功](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-180518%402x.png)
 
-6. 下载链接 https://download-test.robomongo.org/mac/robo3t-1.3.1-darwin-x86_64-7419c40.dmg
+6. 推荐一个 MongoDB 可视化工具 [Robo 3T](https://download-test.robomongo.org/mac/robo3t-1.3.1-darwin-x86_64-7419c40.dmg) 
+安装后启动Robo3t, 点击左上角:computer:图标， 按照默认设置创建一个链接 
+
+![Robo3t 创建链接](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-183432%402x.png)
+
 
 
