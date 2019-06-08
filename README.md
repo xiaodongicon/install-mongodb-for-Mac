@@ -64,7 +64,7 @@
 
 ![未授权的数据目录](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-175935%402x.png)
 
-5. 添加可读写权限 `sudo chown \`id -u\` /data/db` 并运行 `mongod`
+5. 添加可读写权限 ``sudo chown \`id -u` /data/db`` 并运行 `mongod`
 
 > 提示 `waiting for connections on port 27017` 表示数据库启动成功
 
