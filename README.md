@@ -24,7 +24,7 @@
 
 2. brew 安装软件
 
->`brew install [soft_name]` 比如：安装 node `brew install node`
+>`brew install [soft_name]`  比如：安装 node `brew install node`
 
 3. 查看brew 安装的文件路径
 
@@ -38,7 +38,13 @@
 
 >`brew uninstall [soft_name]` 比如：卸载 git `brew unstall git`
 
+### 三、安装 mongodb
 
+1. 使用 brew 安装 mongodb
+
+>`brew install mongodb`
+
+![brew 安装 mongodb](https://github.com/xiaodongicon/install-mongodb-for-Mac/blob/master/WX20190608-124720%402x.png)
 
 
 
